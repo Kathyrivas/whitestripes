@@ -13,3 +13,8 @@ live_loop :white_stripes do
     index = index + 1
   end
 end
+
+live_loop:white do
+  sample :drum_heavy_kick
+  sleep 1
+end
